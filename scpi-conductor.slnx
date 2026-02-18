@@ -1,13 +1,3 @@
 <Solution>
-  <Configurations>
-    <Platform Name="ARM64" />
-    <Platform Name="x64" />
-    <Platform Name="x86" />
-  </Configurations>
-  <Project Path="UI/UI.csproj">
-    <Platform Solution="*|ARM64" Project="ARM64" />
-    <Platform Solution="*|x64" Project="x64" />
-    <Platform Solution="*|x86" Project="x86" />
-    <Deploy />
-  </Project>
+  <Project Path="UI/UI.csproj" Id="c9941e41-4238-40e0-b62b-2c478d2c929d" />
 </Solution>
