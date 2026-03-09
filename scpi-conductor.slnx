@@ -1,3 +1,5 @@
 <Solution>
+  <Project Path="Scpi.ConsoleTest/Scpi.ConsoleTest.csproj" Id="ed04dc94-2ee0-4948-b78d-10fe7f8fd7aa" />
+  <Project Path="Scpi.Core/Scpi.Core.csproj" Id="f7d214c7-230a-421d-95b1-4fe479316a7d" />
   <Project Path="UI/UI.csproj" Id="c9941e41-4238-40e0-b62b-2c478d2c929d" />
 </Solution>

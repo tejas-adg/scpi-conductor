@@ -94,5 +94,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Scpi.Core\Scpi.Core.csproj">
+      <Project>{f7d214c7-230a-421d-95b1-4fe479316a7d}</Project>
+      <Name>Scpi.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

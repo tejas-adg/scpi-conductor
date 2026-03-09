@@ -6,7 +6,12 @@
         xmlns:local="clr-namespace:UI"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+    <Grid RenderTransformOrigin="0.5,0.516">
+        <ListBox HorizontalAlignment="Left" Height="340" Margin="20,64,0,0" VerticalAlignment="Top" Width="280" d:ItemsSource="{d:SampleData ItemCount=5}"/>
+        <Label Content="Hello, World!" HorizontalAlignment="Left" Height="40" Margin="20,0,0,380" VerticalAlignment="Bottom" Width="280"/>
+        <ListBox HorizontalAlignment="Left" Height="340" Margin="500,64,0,0" VerticalAlignment="Top" Width="280" d:ItemsSource="{d:SampleData ItemCount=5}"/>
+        <Button Content="Button" HorizontalAlignment="Center" Height="40" Margin="0,164,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Button" HorizontalAlignment="Center" Height="40" Margin="0,244,0,0" VerticalAlignment="Top" Width="120"/>
+
     </Grid>
 </Window>
